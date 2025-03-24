@@ -31,7 +31,6 @@ Create database with name "blogpost_db" and username "blogpost_admin"
 Create .env database_credentials file, fill in the info and store in the home directory
 ```
 cd ~ && nano /home/server_user/.env
-```
 DATABASE_HOSTNAME=localhost
 DATABASE_PORT=5432
 DATABASE_PASSWORD=admin123!
@@ -40,6 +39,8 @@ DATABASE_USERNAME=blogpost_admin
 SECRET_KEY=your_secret_key
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
+```
+
 
 ## Usage <a name="usage"></a>
 Clone repository
