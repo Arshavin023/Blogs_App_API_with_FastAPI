@@ -1,4 +1,4 @@
-# File Ingestion Process
+# FastAPI Development for BlogPost App
 ## Overview
 The repository demonstrates basics of API development with FastAPI.
 
