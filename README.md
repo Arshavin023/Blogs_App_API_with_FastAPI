@@ -46,7 +46,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES=30
 Clone repository
 ```
 mkdir blogpost_API_development && cd blogpost_API_development
-git clone https://github.com/Arshavin023/Blogs_App_API_with_FastAPI.git .
+git clone https://github.com/Arshavin023/blogpost_API_development_FastAPI.git .
 ```
 Create and activate virtual environment
 ```
