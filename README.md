@@ -65,7 +65,7 @@ alembic upgrade head
 
 Test app
 ``` 
-uvicorn --host 127.0.0.1 app.app:app
+gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.app:app --bind 127.0.0.1:8000
 ```
 
 ## Deployment <a name="deployment"></a>

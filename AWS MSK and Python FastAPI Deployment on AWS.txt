@@ -136,7 +136,7 @@ a. install gunicorn with "pip install gunicorn" in the virtual environment
 b  install httptoos with "pip install httptools" and install uvloop with "pip install uvloop"
 c. Remove the existing requirements.txt file with "rm -r requirements.txt" and
 create a new requirements.txt file with "pip freeze > requirements.txt"
-c. Navigate to src folder with "cd src" and run the application with gunicorn -w no_of_workers(e.g., 4) -k uvicorn.workers.UvicornWorker app.app:app --bind 0.0.0.0:8000
+c. Navigate to src folder with "cd src" and run the application with "gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.app:app --bind 0.0.0.0:8000"
 
 - Next we will run the app as a service 
 a. Preview the services installed on the machine by navigating "cd /etc/systemd/system/" and using "ls" to see them

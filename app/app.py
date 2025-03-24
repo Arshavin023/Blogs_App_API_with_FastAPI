@@ -37,7 +37,7 @@ app.include_router(getuserpost.router)
 # retrieve home page
 @app.get("/")
 def root():
-    return {"message": "Hello, This is my first implementation of FastAPI"}
+    return {"message": "Hello, This is my first implementation of FastAPI framework"}
 
 
 
