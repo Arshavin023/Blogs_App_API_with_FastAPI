@@ -6,14 +6,14 @@ from .. import models, schemas, oauth2
 from ..database import get_db
 import json
 import time
-from kafka import KafkaProducer
+# from kafka import KafkaProducer
 
 
 
 ORDER_KAFKA_TOPIC = "user_posts"
 
-producer = KafkaProducer(bootstrap_servers=["b-2.kafkaproject.9ke3eg.c3.kafka.eu-west-3.amazonaws.com:9092"],
-                                            value_serializer=lambda x: json.dumps(x).encode('utf-8'))
+# producer = KafkaProducer(bootstrap_servers=["b-2.kafkaproject.9ke3eg.c3.kafka.eu-west-3.amazonaws.com:9092"],
+#                                             value_serializer=lambda x: json.dumps(x).encode('utf-8'))
 
 # ORDER_LIMIT = 150
 

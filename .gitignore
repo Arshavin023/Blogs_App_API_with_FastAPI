@@ -1,6 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__
 venv/
+alembic/
+alembic.ini
+gunicorn.service
 .env
 fastapi.pem
 fastapi.ppk
